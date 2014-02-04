@@ -2,7 +2,7 @@
 
 <phpunit backupGlobals="true"
          colors="true"
-	 bootstrap="./vendor/autoload.php">
+         bootstrap="../vendor/autoload.php">
 
     <php>
         <const name="TEST_SELENIUM_WD_HOST" value="http://localhost:4444/wd/hub"/>

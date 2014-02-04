@@ -1,10 +1,11 @@
 language: php
-
 php:
-  - 5.3.3
-  - 5.3
   - 5.4
-
-before_script: composer install -n
-
-script: phpunit -c app
+  - 5.5
+before_script:
+    - ./scripts/init-dependencies.sh
+script:
+    - ./scripts/test-phpunit.sh
+notifications:
+    email:
+            - fabio.mm@gmail.com$
