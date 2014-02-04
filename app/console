@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+// app/console
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+use Anspi\AnspiBundle\Command\UtilsCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+
+$application->add(new UtilsCommand());
+
+$application->run();

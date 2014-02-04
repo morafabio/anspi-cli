@@ -1,0 +1,91 @@
+<!--?xml version="1.0" encoding="iso-8859-1"-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>..:: ANSPI - LOGIN ::..</title>
+<meta content="ANSPI" name="DC.Title" />
+<meta content="" name="description" />
+<meta content="" name="keywords" />
+<meta content="index,follow" name="robots" />
+<meta content="15 days" name="revisit-after" />
+<meta content="it" name="language" />
+<meta content="2LWebNet" name="AUTHOR" />
+<meta content="info@2lweb.net" name="reply-to" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<link type="text/css" rel="stylesheet" href="style.css" /> 
+</head>
+
+<body>
+<div id="container" style="margin: 0px auto; width: 900px;">
+	<div id="headerLogin">
+		<div id="logo"><img width="168" height="65" title="ANSPI" alt="ANSPI" src="images/anspi.jpg" /></div>
+		<div id="titolo"><h1>GESTIONE TESSERAMENTO</h1></div>
+		<br class="form" />
+	</div>
+	<div id="contenuto">
+		<div id="sidebar">
+			<div id="login">			
+				<h3>Login</h3>
+				<form id="login" method="post" action="/index.php?Azione=Login" name="login">
+					<fieldset>
+						<label for="Login">Codice Utente:</label>
+						<input type="text" accesskey="L" tabindex="1" size="30" name="UserName" id="Login" />
+						<br class="form" />
+						<label for="Password">Password:</label>
+						<input type="password" accesskey="P" tabindex="2" size="30" name="Password" id="Password" />
+						<br class="form" />
+						<input type="submit" accesskey="S" tabindex="3" onmouseout="this.className='pulsante';" onmouseover="this.className='pulsanteover';" class="pulsante" value="Conferma" name="Invia" />
+						<input type="reset" accesskey="R" tabindex="4" onmouseout="this.className='pulsante';" onmouseover="this.className='pulsanteover';" class="pulsante" value="Cancella" name="Reset" />
+					</fieldset>
+				</form>
+			</div>		
+			<div id="link">			
+				<h3>Link</h3>
+				<p><a title="assistenza@tesseramentoanspi.it" href="mailto:assistenza@tesseramentoanspi.it">Assistenza</a>: per richiedere assistenza su problemi del programma.</p>
+				<p><a title="info@tesseramentoanspi.it" href="mailto:info@tesseramentoanspi.it">Info</a>: per richiedere informazioni sulle procedure di affiliazione e tesseramento.</p>
+				<p><a title="annullamento@tesseramentoanspi.it" href="mailto:annullamento@tesseramentoanspi.it">Annullamento</a>: per richiedere l'annullamento delle tessere.</p>
+				<p><a title="modificadati@tesseramentoanspi.it" href="mailto:modificadati@tesseramentoanspi.it">Modifica Dati</a>: per richiedere la modifica dei dati identificativi del Tesserato.</p>
+				<p><a target="_blank" title="www.anspi.it" href="http://www.anspi.it">www.anspi.it</a>: per collegarsi al sito dell'ANSPI.</p>
+			</div>		
+			<div id="moduli">			
+				<h3>Modulistica</h3>
+				<p><a target="_blank" title="Procedura Pretesseramento" href="Modulistica/ProceduraPretesseramento2011.pdf">Procedura Pretesseramento</a></p>
+				<p><a title="Richiesta Password Zonali-Regionali" target="_blank" href="Modulistica/RichiestaPassword-ZonaliRegionali1.pdf">Modulo 1 - Per Zonali e Regionali</a></p>
+				<p><a title="Richiesta Password Oratorio-Circolo" target="_blank" href="Modulistica/RichiestaPassword-OratorioCircolo2.pdf">Modulo 2 - Per Oratori e Circoli</a></p>
+			</div>		
+		</div>
+		<div id="main">	
+				<p>Benvenuti nella pagina di accesso alla <strong>Gestione Tesseramento dell'ANSPI</strong>.</p>
+				<p>
+					Da qui ciascun organo dell'ANSPI, previa autenticazione tramite i propri <strong>codice utente</strong> e <strong>password</strong>, può accedere alle varie sezioni ed effettuare le opportune 
+					operazioni di gestione dei comitati e dei tesseramenti.
+				</p>
+				<br />
+				<p>
+					<strong>Sono disponibili i moduli per effettuare la richiesta della password per accedere all'applicativo.</strong><br />
+					Il <a title="Richiesta Password Zonali-Regionali" target="_blank" href="Modulistica/RichiestaPassword-ZonaliRegionali1.pdf">Modulo 1</a> è relativo ai 
+					Comitati Zonali e ai Regionali, mentre il <a title="Richiesta Password Oratorio-Circolo" target="_blank" href="Modulistica/RichiestaPassword-OratorioCircolo2.pdf">
+					Modulo 2</a> è relativo agli Oratori e ai Circoli.
+				</p>
+				<br />
+				
+
+				<br />
+				<br />
+				<p>Per qualunque informazione ulteriore rivolgersi a <a href="mailto:info@tesseramentoanspi.it">info@tesseramentoanspi.it</a>.</p>
+				<p>Per problemi relativi all'applicativo contattare <a href="mailto:assistenza@tesseramentoanspi.it">assistenza@tesseramentoanspi.it</a>.</p>
+				<br />
+				<p>Per un ottimale utilizzo dell'applicativo si consiglia di usare <a target="_blank" href="http://www.mozilla-europe.org"><img align="middle" width="105" height="40" title="Mozilla Firefox" alt="Mozilla Firefox" src="images/firefox.png" /></a>.</p>
+				<p>Si ricorda che per poter stampare le tessere è necessario <a target="_blank" href="http://www.adobe.com/it/products/acrobat/readstep2_allversions.html"><img width="102" height="30" title="Get Adobe Reader" alt="Get Adobe Reader" src="images/get_adobe_reader.gif" /></a>.</p>
+				<br />
+			</div>
+		<div id="clearfooter"></div>
+	</div>
+	<div id="footer">
+		<b>ANSPI - Associazione Nazionale S. Paolo Italia</b>   — C.F. <b>80005870177</b><br />
+		<b>Sede Nazionale:</b> Via G. Galilei, 65 - 25128 Brescia - Tel. 030304695 - Fax 030381042<br />
+	</div>
+</div>
+<script src="progLayout.js" type="text/javascript"></script>
+
+
+</body></html>

@@ -1,0 +1,235 @@
+<!--?xml version="1.0" encoding="iso-8859-1"-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>..:: ANSPI - BEATO QUAGLIOTTI ::..</title>
+<meta content="ANSPI" name="DC.Title" />
+<meta content="" name="description" />
+<meta content="" name="keywords" />
+<meta content="index,follow" name="robots" />
+<meta content="15 days" name="revisit-after" />
+<meta content="it" name="language" />
+<meta content="2LWebNet" name="AUTHOR" />
+<meta content="info@2lweb.net" name="reply-to" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+<link type="text/css" rel="stylesheet" href="style.css" /> 
+<script src="openpopup.js" type="text/JavaScript" language="JavaScript"></script>
+</head>
+
+<body>
+<div id="container" style="margin: 0px auto; width: 900px;">
+	<div id="header">
+		<div id="logo"><img width="168" height="65" title="ANSPI" alt="ANSPI" src="images/anspi.jpg" /></div>
+		<div id="livello"><h3>Beato Quagliotti</h3></div>
+		<div id="titolo"><h2>Oratorio/Circolo</h2><h1>Beato Quagliotti</h1></div>
+		<br class="form" />
+		<ul id="menu">
+		<li>
+			<a onmouseout="document.getElementById('aiuto').innerHTML =descr['Pagina'];" onmouseover="document.getElementById('aiuto').innerHTML =descr['Documenti'];" href="/index.php?Azione=ElencoDocumenti&amp;Regione=02&amp;Zonale=12&amp;Oratorio=1932">
+				Documenti			</a>
+		</li>
+		<li>
+			<a onmouseout="document.getElementById('aiuto').innerHTML =descr['Pagina'];" onmouseover="document.getElementById('aiuto').innerHTML =descr['Affiliazione'];" href="/index.php?Azione=Affiliazione&amp;Regione=02&amp;Zonale=12&amp;Oratorio=1932">
+				Affiliazione			</a>
+		</li>
+		<li>
+			<a onmouseout="document.getElementById('aiuto').innerHTML =descr['Pagina'];" onmouseover="document.getElementById('aiuto').innerHTML =descr['Tesseramento'];" href="/index.php?Azione=Tesseramento&amp;Regione=02&amp;Zonale=12&amp;Oratorio=1932">
+				Tesseramento			</a>
+		</li>
+		<li>
+			<a onmouseout="document.getElementById('aiuto').innerHTML =descr['Pagina'];" onmouseover="document.getElementById('aiuto').innerHTML =descr['Licenze'];" href="/index.php?Azione=LicenzeOratorio&amp;Regione=02&amp;Zonale=12&amp;Oratorio=1932">
+				Licenze			</a>
+		</li>
+		<li>
+			<a onmouseout="document.getElementById('aiuto').innerHTML =descr['Pagina'];" onmouseover="document.getElementById('aiuto').innerHTML =descr['Registro APS'];" href="/index.php?Azione=RegistroAPS&amp;Regione=02&amp;Zonale=12&amp;Oratorio=1932">
+				Registro APS			</a>
+		</li>
+		<li>
+			<a onmouseout="document.getElementById('aiuto').innerHTML =descr['Pagina'];" onmouseover="document.getElementById('aiuto').innerHTML =descr['Questionari'];" href="/index.php?Azione=ElencoQuestionari&amp;Regione=02&amp;Zonale=12&amp;Oratorio=1932">
+				Questionari			</a>
+		</li>
+		<li>
+			<a onmouseout="document.getElementById('aiuto').innerHTML =descr['Pagina'];" onmouseover="document.getElementById('aiuto').innerHTML =descr['Esci'];" href="/index.php?Azione=Logout">
+				Esci			</a>
+		</li>
+		</ul>	
+<div id="aiuto" class="help">Da questa pagina è possibile accedere alle varie funzioni della sezione <b>Oratorio/Circolo</b>, cliccando sulla voce opportuna.</div>
+<script language="JavaScript" type="text/javascript">
+&lt;!--
+descr=new Array;
+
+descr['Pagina']='Da questa pagina &amp;egrave; possibile accedere alle varie funzioni della sezione &lt;b&gt;Oratorio/Circolo&lt;/b&gt;, cliccando sulla voce opportuna.';
+descr['Documenti']='Per accedere alla sezione di visualizzazione dei documenti dell&amp;#8217;Oratorio/Circolo.';
+descr['Affiliazione']='Per accedere alla sezione Affiliazione.';
+descr['Tesseramento']='Per passare alla sezione Tesseramento.';
+descr['Licenze']='Per visualizzare le licenze di cui dispone l&amp;#8217;Oratorio/Circolo.';
+descr['Registro APS']='Per visualizzare l&amp;#8217;elenco delle iscrizioni al Registro APS.';
+descr['Questionari']='Per visualizzare i questionari a cui l&amp;#8217;Oratorio/Circolo pu&amp;ograve; rispondere.';
+descr['Esci']='Per uscire dal sistema.';
+//--&gt;
+</script>
+	</div>
+	<div id="content">
+		<div id="sidebar">
+			<br />
+			<div id="info">			
+				<p class="titolo">Informazioni</p>
+				<p>
+					<span class="help-message">
+						<a title="News" href="/index.php?Azione=News&amp;Regione=02&amp;Zonale=12&amp;Oratorio=1932">News</a>
+						<em>Elenco di tutte le news pubblicate in Home Page.</em>
+					</span>
+				</p>
+				<p>
+					<span class="help-message">
+						<a title="Novità Tesseramento ANSPI 2010" target="_blank" href="Modulistica/Tesseramento2010.pdf">Novità Tesseramento ANSPI 2010  </a>
+						<em>Novità Tesseramento ANSPI 2010</em>
+					</span>
+				</p>
+			</div>		
+			<div id="manuali">			
+				<p class="titolo">Manuali</p>
+				<p>
+					<span class="help-message">
+						<a title="Affiliazione" target="_blank" href="Manuali/Affiliazione.pdf">Affiliazione</a>
+						<em>Istruzioni per eseguire l'Affiliazione.</em>
+					</span>
+				</p>
+				<p>
+					<span class="help-message">
+						<a title="Sezione Tesseramento" target="_blank" href="Manuali/SezioneTesseramento_C.pdf">Tesseramento</a>
+						<em>Istruzioni per permettere all'<b>Oratorio/Circolo</b> di effettuare il Tesseramento.</em>
+					</span>
+				</p>
+			</div>		
+		</div>
+		<div id="main">	
+		<p id="accesso">Ultimo accesso: <b>22-08-2013 20:08</b> </p>
+			<div id="inner">
+				<table class="comitati">
+					<caption>Tabella riassuntiva</caption>
+					<thead>
+						<tr>
+							<th scope="row">Codice:</th>
+							<td>02 12 1932</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Nome:</th>
+							<td>Beato Quagliotti</td>
+						</tr>
+						<tr>
+							<th scope="row">Riconoscimento:</th>
+							<td>A.S.D. - A.P.S.</td>
+						</tr>
+						<tr>
+							<th scope="row">Sede:</th>
+							<td>Viale Beato Quagliotti, 1 Galliate</td>
+						</tr>
+						<tr>
+							<th scope="row">e-mail:</th>
+							<td><a href="mailto:oratoriogalliate@gmail.com">oratoriogalliate@gmail.com</a></td>
+						</tr>
+						<tr>
+							<th scope="row">Presidente:</th>
+							<td>Lorenzo Rosa</td>
+						</tr>
+						<tr>
+							<th scope="row">Ultima Affiliazione:</th>
+							<td>2013</td>
+						</tr>
+					</tbody>
+				</table>
+				<br />
+				<table class="riassuntivo">
+					<caption>
+						<span class="help-message">
+							Consuntivo
+							<em>
+								La tabella <b>Consuntivo</b> mostra il numero totale di iscritti all'ANSPI per l’Oratorio/Circolo nei vari anni, individuando, con le voci  
+								<b>Nuovi</b> e <b>Modificati</b>, quanti Tesserati sono stati, rispettivamente, inseriti o modificati dall'ultimo accesso.<br />
+							</em>
+						</span>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col"> </th>
+							<th scope="col">Totale</th>
+							<th scope="col">Totale 2013</th>
+							<th scope="col">Nuovi</th>
+							<th scope="col">Modificati</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">
+								Tesserati:
+							</th>
+							<td>1916</td>
+							<td>728</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+					</tbody>
+				</table>
+						<br />
+				<table class="riassuntivo">
+					<caption>
+						<span class="help-message">
+							Consuntivo Tessere
+							<em>
+								La tabella <b>Consuntivo Tessere</b> indica le Tessere stampate nell'anno in corso, anche divise per sesso e per fascia di 
+								età, e le Tessere richieste, ma non ancora stampate.
+							</em>
+						</span>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col"> </th>
+							<th scope="col">Totale</th>
+							<th scope="col">Adulti</th>
+							<th scope="col">Ragazzi</th>
+							<th scope="col">Uomini</th>
+							<th scope="col">Donne</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Tessere 2013:</th>
+							<td>728</td>
+							<td>59</td>
+							<td>669</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<th scope="row">PreTessere 2014:</th>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<th scope="row">Tessere Richieste:</th>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="clearfooter"></div>
+	</div>
+	<div id="footer">
+		<b>ANSPI - Associazione Nazionale S. Paolo Italia</b>   — C.F. <b>80005870177</b><br />
+		<b>Sede Nazionale:</b> Via G. Galilei, 65 - 25128 Brescia - Tel. 030304695 - Fax 030381042<br />
+	</div>
+</div>
+<script src="progLayout.js" type="text/javascript"></script>
+
+
+</body></html>
