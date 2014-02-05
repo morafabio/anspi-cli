@@ -4,11 +4,14 @@
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-use Anspi\AnspiBundle\Command\UtilsCommand;
 use Symfony\Component\Console\Application;
+
+use Anspi\AnspiBundle\Command\ConfigureCommand;
+use Anspi\AnspiBundle\Command\UtilsCommand;
 
 $application = new Application();
 
+$application->add(new ConfigureCommand());
 $application->add(new UtilsCommand());
 
 $application->run();
